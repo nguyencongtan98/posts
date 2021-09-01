@@ -1,14 +1,11 @@
 {
-  "homepage": "http://nguyencongtan98.github.io/my-posts",
   "name": "posts",
   "version": "1.0.0",
   "description": "example nodejs",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "start": "node app.js"
   },
   "author": "Tannc",
   "license": "ISC",
